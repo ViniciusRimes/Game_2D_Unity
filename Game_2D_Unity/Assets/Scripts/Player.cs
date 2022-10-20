@@ -86,6 +86,12 @@ public class Player : MonoBehaviour
             isJumping = false;
             Anim.SetBool("jump",false); //desabilitando animacao
         }
+
+        if (collision.gameObject.tag == "Spikes")
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
     }
 
      void OnCollisionExit2D(Collision2D collision) //player nao está tocando na colisao
@@ -95,6 +101,5 @@ public class Player : MonoBehaviour
             isJumping = true;
         }
     }
-
 
 }
