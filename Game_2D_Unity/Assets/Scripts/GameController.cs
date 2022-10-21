@@ -9,6 +9,11 @@ public class GameController : MonoBehaviour
     public int totalScore;
     public Text ScoreText;
     public GameObject GameOver;
+    public GameObject NextLevel;
+
+
+   
+    
 
     public static GameController instance;
     
@@ -20,6 +25,7 @@ public class GameController : MonoBehaviour
 
     public void UpdateScoreText()
     {
+        
         ScoreText.text = totalScore.ToString();
     }
 
@@ -31,6 +37,16 @@ public class GameController : MonoBehaviour
     public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
+    }
+
+    public void ShowNextLevel()
+    {
+        NextLevel.SetActive(true);
+    }
+
+    public void NextLevelContinue(string nextlvl)
+    {
+         SceneManager.LoadScene(nextlvl);
     }
     
 }
