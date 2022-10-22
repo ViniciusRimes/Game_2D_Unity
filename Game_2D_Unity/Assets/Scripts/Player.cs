@@ -87,7 +87,7 @@ public class Player : MonoBehaviour
             Anim.SetBool("jump",false); //desabilitando animacao
         }
 
-        if (collision.gameObject.tag == "Spikes")
+        if (collision.gameObject.tag == "Damage")
         {
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
