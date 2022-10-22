@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(lvlName);
     }
 
-    public void ShowNextLevel()
+    /*public void ShowNextLevel()
     {
         NextLevel.SetActive(true);
     }
@@ -47,6 +47,6 @@ public class GameController : MonoBehaviour
     public void NextLevelContinue(string nextlvl)
     {
          SceneManager.LoadScene(nextlvl);
-    }
+    }*/
     
 }
