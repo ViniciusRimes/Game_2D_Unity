@@ -47,6 +47,7 @@ void OnCollisionEnter2D(Collision2D collision)
 {
     if (collision.gameObject.tag == "Player")
     {
+        
         float height = collision.contacts[0].point.y - headPoint.position.y;
 
         if (height > 0 && !playerDestroyed)
@@ -61,7 +62,7 @@ void OnCollisionEnter2D(Collision2D collision)
             Destroy(gameObject, 0.40f);
         }
         else{
-          
+            playerDestroyed = true;
             GameController.instance.ShowGameOver();
             Destroy(collision.gameObject);
         }
