@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D Rig; //omponente
     private Animator Anim; //componente
 
+    bool isBlowing;
+
     
     // Start is called before the first frame update
     void Start()
@@ -57,7 +59,7 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump")) //apertar o botao de pulo
+        if (Input.GetButtonDown("Jump") && !isBlowing) //apertar o botao de pulo
         {
             if (!isJumping)
             {
@@ -99,6 +101,22 @@ public class Player : MonoBehaviour
         if (collision.gameObject.layer == 8)
         {
             isJumping = true;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D Collider)
+    {
+        if (Collider.gameObject.layer == 12)
+        {
+            isBlowing = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D Collider)
+    {
+        if (Collider.gameObject.layer == 12)
+        {
+            isBlowing = false;
         }
     }
 

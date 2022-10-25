@@ -17,6 +17,7 @@ public class NinjaFrog : MonoBehaviour
     public LayerMask layer;
     public BoxCollider2D boxCollider2D;
     public CircleCollider2D circleCollider2D;
+     
     
     
     // Start is called before the first frame update
@@ -41,13 +42,13 @@ public class NinjaFrog : MonoBehaviour
         }
         
     }
-
 bool playerDestroyed;
 void OnCollisionEnter2D(Collision2D collision)
 {
+   
     if (collision.gameObject.tag == "Player")
     {
-        
+         
         float height = collision.contacts[0].point.y - headPoint.position.y;
 
         if (height > 0 && !playerDestroyed)
@@ -58,10 +59,10 @@ void OnCollisionEnter2D(Collision2D collision)
             boxCollider2D.enabled = false;
             circleCollider2D.enabled = false;
             rig.bodyType = RigidbodyType2D.Kinematic;
-
             Destroy(gameObject, 0.40f);
         }
-        else{
+        else
+        {
             playerDestroyed = true;
             GameController.instance.ShowGameOver();
             Destroy(collision.gameObject);
