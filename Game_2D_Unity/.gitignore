@@ -6,12 +6,17 @@
 /[Tt]emp/
 /[Oo]bj/
 <<<<<<< HEAD
+<<<<<<< HEAD
 /[Bb]uild/
 /[Bb]uilds/
 =======
 [Bb]uild/
 [Bb]uilds/
 >>>>>>> parent of cb87d4a (Update .gitignore)
+=======
+/[Bb]uild/
+/[Bb]uilds/
+>>>>>>> parent of b1f41ab (Revert "lvl 5, finalizando o jogo, menu")
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
