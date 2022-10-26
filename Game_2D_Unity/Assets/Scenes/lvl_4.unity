@@ -9656,6 +9656,7 @@ MonoBehaviour:
   ScoreText: {fileID: 1861925237}
   GameOver: {fileID: 102285528}
   NextLevelGame: {fileID: 441475664}
+  PauseGame: {fileID: 0}
 --- !u!4 &736614613
 Transform:
   m_ObjectHideFlags: 0

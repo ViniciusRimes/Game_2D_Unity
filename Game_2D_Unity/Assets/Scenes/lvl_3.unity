@@ -9262,6 +9262,7 @@ MonoBehaviour:
   ScoreText: {fileID: 1861925237}
   GameOver: {fileID: 102285528}
   NextLevelGame: {fileID: 666489939}
+  PauseGame: {fileID: 0}
 --- !u!4 &736614613
 Transform:
   m_ObjectHideFlags: 0
@@ -12127,10 +12128,6 @@ PrefabInstance:
     - target: {fileID: 4262438975841543536, guid: 57551e6ae37629a4e950995ad8248134, type: 3}
       propertyPath: m_Name
       value: Saw
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262438975841543540, guid: 57551e6ae37629a4e950995ad8248134, type: 3}
-      propertyPath: moveTime
-      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 4262438975841543542, guid: 57551e6ae37629a4e950995ad8248134, type: 3}
       propertyPath: m_RootOrder

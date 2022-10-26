@@ -1155,13 +1155,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123801539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0008138021, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 760762655}
-  m_RootOrder: 2
+  m_Father: {fileID: 746159638}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &123801541
 MonoBehaviour:
@@ -9145,6 +9145,7 @@ MonoBehaviour:
   ScoreText: {fileID: 1861925237}
   GameOver: {fileID: 0}
   NextLevelGame: {fileID: 760762652}
+  PauseGame: {fileID: 0}
 --- !u!4 &736614613
 Transform:
   m_ObjectHideFlags: 0
@@ -9255,6 +9256,7 @@ RectTransform:
   - {fileID: 1861925236}
   - {fileID: 612341711}
   - {fileID: 760762655}
+  - {fileID: 123801540}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9335,7 +9337,6 @@ RectTransform:
   m_Children:
   - {fileID: 1398264592}
   - {fileID: 1199918091}
-  - {fileID: 123801540}
   m_Father: {fileID: 746159638}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

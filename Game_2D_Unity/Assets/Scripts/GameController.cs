@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public Text ScoreText;
     public GameObject GameOver;
     public GameObject NextLevelGame;
-
+    
 
    
     
@@ -52,5 +52,7 @@ public class GameController : MonoBehaviour
     {
         Application.Quit();
     }
+
+
     
 }
