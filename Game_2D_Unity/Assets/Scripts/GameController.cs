@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     public int totalScore;
     public Text ScoreText;
     public GameObject GameOver;
-    public GameObject NextLevelGame;
+    public GameObject NextLevel;
 
 
    
@@ -39,18 +39,14 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(lvlName);
     }
 
-    public void ShowNextLevel()
+    /*public void ShowNextLevel()
     {
-        NextLevelGame.SetActive(true);
+        NextLevel.SetActive(true);
     }
 
-    public void NextLevel(string lvlName)
+    public void NextLevelContinue(string nextlvl)
     {
-         SceneManager.LoadScene(lvlName);
-    }
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+         SceneManager.LoadScene(nextlvl);
+    }*/
     
 }

@@ -12,8 +12,9 @@ public class NextLevelPoint : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
         
-            GameController.instance.ShowNextLevel();
-        
+            SceneManager.LoadScene(nextlvl);
+            //GameController.instance.ShowNextLevel();
+
         }
     }
 }
