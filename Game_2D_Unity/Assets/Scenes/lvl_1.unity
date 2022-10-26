@@ -9144,7 +9144,7 @@ MonoBehaviour:
   totalScore: 0
   ScoreText: {fileID: 1861925237}
   GameOver: {fileID: 0}
-  NextLevel: {fileID: 760762652}
+  NextLevelGame: {fileID: 760762652}
 --- !u!4 &736614613
 Transform:
   m_ObjectHideFlags: 0
@@ -9587,7 +9587,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 736614612}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: NextLevelContinue
+        m_MethodName: NextLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10897,7 +10897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8368172353263403801, guid: 059b20f2678ee1646ba699104c9e31eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.49
+      value: -2.546
       objectReference: {fileID: 0}
     - target: {fileID: 8368172353263403801, guid: 059b20f2678ee1646ba699104c9e31eb, type: 3}
       propertyPath: m_LocalPosition.z
