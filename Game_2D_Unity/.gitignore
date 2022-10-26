@@ -5,8 +5,13 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
+<<<<<<< HEAD
 /[Bb]uild/
 /[Bb]uilds/
+=======
+[Bb]uild/
+[Bb]uilds/
+>>>>>>> parent of cb87d4a (Update .gitignore)
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
