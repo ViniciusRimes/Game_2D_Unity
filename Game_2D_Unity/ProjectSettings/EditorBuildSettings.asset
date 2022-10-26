@@ -17,7 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl_4.unity
     guid: 04e4cc20e3421894a8edb103886014b0
+<<<<<<< HEAD
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+=======
+  - enabled: 1
+    path: Assets/Scenes/lvl_5.unity
+    guid: 10e847180fbacad42bdb3b6010802a02
+>>>>>>> parent of a860d27 (lvl 5, finalizando o jogo, menu)
   m_configObjects: {}
